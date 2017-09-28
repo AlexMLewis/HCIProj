@@ -5,6 +5,14 @@ body {
   text-align: center;
 }
 
+.title {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-top: 0px;
+}
+
 .section {
   margin: auto 5% 20px 5%;
 }
