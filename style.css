@@ -1,8 +1,21 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  max-width: 800px;
+  max-width: 900px;
   margin: 20px auto;
   text-align: center;
+}
+
+.section {
+  margin: auto 5% 20px 5%;
+}
+
+.name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.gp-link {
+  margin-right: 20px;
 }
 
 a {
