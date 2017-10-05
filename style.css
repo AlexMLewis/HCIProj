@@ -1,8 +1,22 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
-  max-width: 900px;
+  max-width: 800px;
   margin: 20px auto;
-  text-align: center;
+  padding-bottom: 124px; /* footer height */
+  min-height: 100%;
+}
+
+.page {
+  margin: auto 5% 20px 5%;
+}
+
+.section {
+  margin-top: 40px;
 }
 
 .title {
@@ -13,8 +27,8 @@ body {
   margin-top: 0px;
 }
 
-.section {
-  margin: auto 5% 20px 5%;
+.navbar {
+  width: 107%;
 }
 
 .name {
@@ -24,6 +38,16 @@ body {
 
 .gp-link {
   margin-right: 20px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: whitesmoke;
+  text-align: center;
 }
 
 a {
